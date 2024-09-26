@@ -1,0 +1,28 @@
+.navbar{
+display:flex;
+align-items: center;
+background-color: var(--clr-brown);
+color:#ffffff;
+height:50px;
+position:sticky;
+top:0;
+box-shadow: 10px 2px 40px var(--clr-brown);
+}
+nav li a{
+    /* display: block; */
+    text-decoration: none;
+    margin: 6px;
+    padding: 6px;
+    font-weight: 600;
+    
+}
+.navbar li a:hover{
+    color:var(--clr-secondary);
+    font-weight: 800;
+  }
+
+  .user {
+    margin-left: auto; /* Push the username to the far right */
+    padding-right: 20px; /* Add some spacing from the edge */
+    font-weight: bold; /* Make the username bold */
+}

@@ -1,0 +1,59 @@
+.courseContainer{
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+     gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    /* background-color: var(--clr-secondary); */
+}
+
+.courseCard{
+   width:400px;
+   background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border:2px solid var(--clr-primary);
+    border-radius: 0.5em;
+    color:sienna;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+}
+
+.courseCard img{
+   width:350px;
+   height: 300px;
+   margin-top: 5px;
+}
+
+.courseDetails{
+  width: 80%;
+    margin:5px;
+    padding: 4px;
+}
+.courseDetails li {
+    margin-bottom: 10px;
+    color: var(--clr-light); /* Use the dark color for text */
+    font-size: 16px;
+  
+  }
+
+  .courseDetails li span {
+    font-weight: bold;    /* Bold the first word */
+    color: var(--clr-dark); /* Primary color for the first word */
+  }
+  .courseDetails li b {
+    color: var(--clr-dark); /* Highlight Course Name with the primary color */
+    border-bottom: 1px solid  var(--clr-dark);  
+}
+
+.courseDetails hr {
+    width: 100%;
+    border: none;
+    height: 1px;
+    background-color: var(--clr-dark); /* Dark line */
+    margin: 20px 0;
+  }
